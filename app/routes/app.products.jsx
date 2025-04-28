@@ -123,7 +123,7 @@ export default function ProductsPage() {
             />
 
             <label style={{ display: 'block', margin: '0.5rem 0' }}>
-              Bidding chaloo karein:
+              Start Bidding:
               <input
                 type="checkbox"
                 name="enabled"
@@ -132,7 +132,7 @@ export default function ProductsPage() {
             </label>
 
             <label style={{ display: 'block', margin: '0.5rem 0' }}>
-              Kam se kam keemat (Rs):
+               Minimum Price (Rs):
               <input
                 type="number"
                 name="minPrice"
@@ -141,7 +141,7 @@ export default function ProductsPage() {
               />
             </label>
 
-            <button type="submit">Save karen</button>
+            <button type="submit">Save</button>
           </Form>
         </div>
       ))}

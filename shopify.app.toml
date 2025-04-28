@@ -3,11 +3,12 @@
 client_id = "a576c8d9271ff4157decc44c6dfa9741"
 name = "haider-price-app-newest"
 handle = "haider-price-app-newest"
-application_url = "https://twisted-arnold-justin-whole.trycloudflare.com"
+application_url = "https://sword-those-detect-colleges.trycloudflare.com"
 embedded = true
 
 [build]
 include_config_on_deploy = true
+automatically_update_urls_on_dev = true
 
 [webhooks]
 api_version = "2025-04"
@@ -18,9 +19,9 @@ scopes = "write_cart_transforms,write_products"
 
 [auth]
 redirect_urls = [
-  "https://twisted-arnold-justin-whole.trycloudflare.com/auth/callback",
-  "https://twisted-arnold-justin-whole.trycloudflare.com/auth/shopify/callback",
-  "https://twisted-arnold-justin-whole.trycloudflare.com/api/auth/callback"
+  "https://sword-those-detect-colleges.trycloudflare.com/auth/callback",
+  "https://sword-those-detect-colleges.trycloudflare.com/auth/shopify/callback",
+  "https://sword-those-detect-colleges.trycloudflare.com/api/auth/callback"
 ]
 
 [pos]
